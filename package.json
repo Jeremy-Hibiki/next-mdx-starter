@@ -1,22 +1,44 @@
 {
   "name": "mermaid-playground",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "Mermaid 作图测试",
+  "license": "MIT",
+  "author": "Jeremy-Hibiki <JeremyJiang430@outlook.com>",
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
-    "@types/node": "20.6.0",
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
-    "eslint": "8.49.0",
-    "eslint-config-next": "13.4.19",
-    "next": "13.4.19",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.2.2"
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^2.3.0",
+    "@next/mdx": "^13.4.19",
+    "highlight.js": "^11.8.0",
+    "katex": "^0.16.8",
+    "mermaid": "^10.4.0",
+    "next": "^13.4.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rehype-highlight": "^7.0.0",
+    "rehype-katex": "^6.0.3",
+    "rehype-mermaidjs": "^2.0.0",
+    "remark-breaks": "^3.0.3",
+    "remark-gfm": "^3.0.1",
+    "remark-math": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "eslint": "^8.49.0",
+    "eslint-config-next": "^13.4.19",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-organize-imports": "^3.2.3",
+    "prettier-plugin-packagejson": "^2.4.5",
+    "typescript": "^5.2.2"
   }
 }
